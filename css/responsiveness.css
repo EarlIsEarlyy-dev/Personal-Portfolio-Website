@@ -1,0 +1,155 @@
+/* ── HERO LAYOUT (ALL SCREENS) ── */
+.hero-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.hero-copy { flex: 1; }
+
+.hero-photo {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* =======================================
+   TABLET & MOBILE (768px and below)
+======================================= */
+@media (max-width: 768px) {
+
+  .hero-inner {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .hero-copy p {
+    margin: 0 auto 25px;
+    font-size: 15px;
+  }
+
+  .hero-actions { justify-content: center; }
+
+  .hero-features {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+  }
+
+  .hero-feature {
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-photo { width: 100%; }
+
+  .seal {
+    width: 260px;
+    height: 260px;
+  }
+
+  /* Sections */
+  .services,
+  .projects,
+  .about,
+  .testimonial,
+  .contact { padding: 70px 0; }
+
+  .section-head { margin-bottom: 35px; }
+
+  /* Services */
+  .service-card {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 30px 24px;
+  }
+
+  /* Projects */
+  .projects-grid { grid-template-columns: 1fr 1fr; }
+
+  /* About */
+  .about-card { padding: 30px 24px; }
+
+  .about-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .stats { justify-content: center; }
+
+  .tools-grid { grid-template-columns: repeat(2, 1fr); }
+
+  .cert-grid { grid-template-columns: 1fr; }
+
+  /* Testimonial */
+  .testimonial-card {
+    flex-direction: column;
+    padding: 30px 24px;
+    text-align: center;
+  }
+
+  .testimonial-avatar { margin: auto; }
+
+  /* Contact */
+  .contact-wrap { padding: 30px 24px; }
+
+  .contact-info { text-align: center; }
+
+  .contact-info p { margin: auto auto 25px; }
+
+  .social-row { justify-content: center; }
+
+  /* Footer */
+  .footer-grid { text-align: center; }
+
+  .footer-brand p { margin: auto; }
+
+  .footer-bottom {
+    justify-content: center;
+    text-align: center;
+  }
+
+}
+
+/* =======================================
+   SMALL PHONES (480px and below)
+======================================= */
+@media (max-width: 480px) {
+
+  h1 { line-height: 1.15; }
+
+  .hero-copy h1 { font-size: 34px; }
+
+  .hero-copy p { font-size: 14px; }
+
+  .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .hero-actions { flex-direction: column; }
+
+  .hero-features { grid-template-columns: 1fr; }
+
+  .tools-grid { grid-template-columns: 1fr; }
+
+  .seal {
+    width: 220px;
+    height: 220px;
+  }
+
+  .about-photo {
+    width: 90px;
+    height: 90px;
+  }
+
+  .contact-wrap,
+  .about-card,
+  .testimonial-card { padding: 24px 18px; }
+
+  /* Projects - 1 column on small phones */
+  .projects-grid { grid-template-columns: 1fr; }
+
+}

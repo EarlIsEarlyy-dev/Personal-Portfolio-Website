@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>G-ULTIMATE CONSTRUCTION</title>
+<meta name="description" content="Earl is a civil engineer specializing in structural design, site analysis, and project management.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="icon" href="../images/Logo.png">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsiveness.css">
+</head>
+<body>
+
+  <!-- =================== NAV =================== -->
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="#top" class="logo">
+        <img src="../images/Logo.png" alt="Gultiano Civil Engineer">
+      </a>
+      <nav class="nav-links">
+        <a href="#top" class="active">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Portfolio</a>
+        <a href="#about-tools">Tools</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a href="#contact" class="btn btn-primary btn-sm nav-cta">Let's Work Together</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#top">About</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Portfolio</a>
+      <a href="#about-tools">Tools</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <!-- =================== HERO =================== -->
+  <section class="hero" id="top">
+    <div class="hero-inner">
+      <div class="hero-copy reveal">
+        <span class="eyebrow">Registered Civil Engineer</span>
+        <h1>STEPHEN EARL <span class="accent">GULTIANO.</span></h1>
+        <p>I'm a Civil Engineer specializing in constructiob management engineering, sustainable structural design, precise cost estimates and detailed quantity takeoff — from first sketch to final results.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Hire Me →</a>
+          <a href="#projects" class="btn btn-outline">View My Work</a>
+        </div>
+        <div class="hero-features">
+            <div class="stat"><strong>3.5+</strong><span>Years Licensed</span></div>
+          <div class="hero-feature">
+              <div class="stat"><strong>100+</strong><span>US Based Projects</span></div>
+          </div>
+          <div class="hero-feature">
+            <div class="stat"><strong>10+</strong><span>Local Projects</span></div>             
+          </div>
+        <div class="hero-feature">
+            <div class="stat"><strong>100%</strong><span>Clients Satisfaction</span></div>
+        </div>
+        </div>
+      </div>
+
+      <!-- PHOTO SLOT 1: Hero portrait -->
+      <!-- Put the main profile photo at: images/profile.jpg  (square image, at least 600x600px, will be cropped to a circle) -->
+      <div class="hero-photo reveal">
+        <div class="seal">
+          <svg class="seal-ring" viewBox="0 0 320 320" width="100%" height="100%">
+            <circle cx="160" cy="160" r="155" fill="none" stroke="#2f6690" stroke-width="1.5" stroke-dasharray="2 6"/>
+            <circle cx="160" cy="160" r="140" fill="none" stroke="#16202e" stroke-width="1"/>
+            <defs>
+              <path id="sealtext" d="M 160,160 m -128,0 a 128,128 0 1,1 256,0 a 128,128 0 1,1 -256,0"/>
+            </defs>
+            <text font-family="JetBrains Mono, monospace" font-size="10.5" letter-spacing="2.5" fill="#5c6773">
+              <textPath href="#sealtext" startOffset="2%">
+                 • Construction Estimating • Quantity Surveying • Site Engineering &amp; Project Supervision
+              </textPath>
+            </text>
+          </svg>
+          <span class="seal-dot"></span>
+          <div class="seal-photo-wrap">
+            <img src="..//images/Engr.png" alt="Portrait of Earl, civil engineer">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== SERVICES =================== -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">What I Do</span>
+        <h2>Services I Offer</h2>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 21V9l9-6 9 6v12"/><path d="M9 21v-8h6v8"/></svg></div>
+          <div>
+            <h3>Engineering &AMP; Project Supervision</h3>
+            <p>Construction monitoring, quality control, and coordination to ensure efficient project execution.</p>
+          </div>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg></div>
+          <div>
+            <h3>Construction Estimating</h3>
+            <p>Accurate quantity takeoffs, cost estimates, and bid preparation for residential and commercial projects.</p>          </div>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 3v18h18"/><path d="M7 15l4-5 4 3 5-7"/></svg></div>
+          <div>
+            <h3>Construction Documentation</h3>
+            <p>Drawing reviews, specification analysis, progress reports, and project coordination.</p>
+          </div>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
+          <div>
+            <h3>Quantity Surveing</h3>
+            <p>Material takeoffs, BOQ preparation, and cost analysis to support project budgeting.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== PROJECTS =================== -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Portfolio</span>
+        <h2>Work Experiences</h2>
+      </div>
+      <div class="filter-tabs" id="filterTabs">
+        <button class="filter-tab active" data-filter="all">All</button>
+        <button class="filter-tab" data-filter="Project Manager">Project Manager</button>
+        <button class="filter-tab" data-filter="Estimator (US Based)">Estimator (US Based)</button>
+        <button class="filter-tab" data-filter="Freelance-Contract">Freelance Contract</button>
+      </div>
+
+      <div class="projects-grid" id="projectsGrid">
+
+        <!--Site ENGR -->
+        <div class="project-card reveal" data-category="Project Manager">
+          <div class="project-thumb">
+            <img src="images/Euvin-Builders_logo.jpg" alt="City Painting Services">
+          </div>
+          <div class="project-body">
+            <span class="project-tag">Site Engineer</span>
+            <h3>Euvin Builders</h3>
+            <p class="description" >Managed project execution for a 600 sqm fencing project located at Champaca St., Mintal, Davao City, including work scheduling, preparation of material lists and detailed estimates, and supervision of on-site activities to ensure quality workmanship, safety compliance, and timely completion.</p>
+            <button class="read-more-btn">Read More</button>
+            <p><br> July 2025 - Oct. 2025</p>
+          </div>
+        </div>
+
+        <!--Senior Site ENGR -->
+        <div class="project-card reveal" data-category="Project Manager">
+          <div class="project-thumb">
+            <img src="images/Elion-Konstrukt_logo.jpg" alt="City Painting Services">
+          </div>
+          <div class="project-body">
+            <span class="project-tag">Senior Site Engineer</span>
+            <h3>Elion Konstrukt </h3>
+            <p class="description" >Led the successful construction of 16 duplexes (32 units) at Crown Estates Alang-Alang, Leyte. Supervised day-to-day site operations, ensuring efficient workflow, safety compliance, and adherence to project timelines and budgets</p>
+            <button class="read-more-btn">Read More</button>
+            <p><br> June 2023 - June 2024 </p>
+          </div>
+        </div>
+
+        <!-- Estimator -->
+        <div class="project-card reveal" data-category="Estimator (US Based)">
+          <div class="project-thumb">
+            <img src="images/CBVAS_logo.jpg" alt="City Painting Services">
+          </div>
+          <div class="project-body">
+            <span class="project-tag">Estimator (US based)</span>
+            <h3>CBVAS - Prodeals NY</h3>
+            <p class="description" >Performed quantity takeoffs for doors, windows, millworks, and base mouldings using Planswift software. Delivered accurate cost estimates and detailed breakdowns based on construction drawing</p>
+            <button class="read-more-btn">Read More</button>
+            <p><br> July 2024 - Dec. 2024 </p>
+          </div>
+        </div>
+
+        <div class="project-card reveal" data-category="Estimator (US Based)">
+          <div class="project-thumb">
+            <img src="images/CBVAS_logo.jpg" alt="CBVAS - City Painting Services">
+          </div>
+          <div class="project-body">
+            <span class="project-tag">Estimator (US Based)</span>
+            <h3>CBVAS - City Painting Services</h3>
+            <p class="description">
+              Used On-Screen Takeoff to perform detailed painting estimates for mid to high-rise building projects. Managed the scope of works, including painting estimates, pricing, proposal preparation for bidding, material ordering/quotations, and supplier coordination for murals and wall covering.
+            </p>
+            <button class="read-more-btn">Read More</button>
+            <p><br> Jan. 2025 - Current</p>
+          </div>
+        </div>
+
+        <!--Freelance Contact -->
+        <div class="project-card reveal" data-category="Freelance-Contract">
+          <div class="project-thumb">
+            <img src="images/Shell_logo.jpg" alt="City Painting Services">
+          </div>
+          <div class="project-body">
+            <span class="project-tag">Shell Select & Cafe (Carpentry works)</span>
+            <h3>Henson Builders Corp.</h3>
+            <p class="description" >Completed construction and installation of interior fit-out elements including a front countertop, back counter, and storage door for a Shell   branch at Km3 Gen. Douglas MacArthur Hwy, Talomo, Davao City. Delivered works as approved plans and specifications, ensuring quality workmanship, proper material finishing, and on-time project completion</p>
+            <button class="read-more-btn">Read More</button>
+            <p><br> Jan 2026 - Feb. 2026 </p>       
+          </div>
+        </div>
+
+        <div class="project-card reveal" data-category="Freelance-Contract">
+          <div class="project-thumb">
+            <img src="images/Dunkin_logo.jpg" alt="City Painting Services">
+          </div>
+          <div class="project-body">
+            <span class="project-tag">Dunkin Donuts (Carpentry works)</span>
+            <h3>Henson Builders Corp.</h3>
+            <p class="description" >Completed construction and installation of interior fit-out elements including a countertop, banquette seating, and plant box seating for a Dunkin Donuts branch at Bambu Estate, Sto. Niño, Tugbok District, Mintal, Davao City. Delivered works as approved plans and specifications, ensuring quality workmanship, proper material finishing, and on-time project completion.</p>
+            <button class="read-more-btn">Read More</button>
+            <p><br> Sept 2025 - Oct. 2025</p>       
+          </div>
+        </div>
+
+
+
+
+
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== ABOUT =================== -->
+  <section class="about" id="about-tools">
+    <div class="container">
+      <div class="about-grid">
+
+        <div class="about-card reveal">
+          <h2>About Me</h2>
+          <p>I am a Civil Engineer with experience in both construction site operations and office-based engineering. I have worked with US-based clients as a Construction Estimator, specializing in detailed quantity takeoffs, cost estimating, and bid preparation for residential and commercial projects. I am committed to delivering accurate, reliable, and detail-oriented results.</p>
+          <div class="about-bottom">
+            <div class="about-photo">
+              <img src="../images/engr.png" alt="Earl on site">
+            </div>
+            <div class="stats">
+              <div class="stat"><strong>3.5+</strong><span>Years Licensed</span></div>
+              <div class="stat"><strong>100+</strong><span>US Based Projects</span></div>
+              <div class="stat"><strong>10+</strong><span>Local Projects</span></div>             
+              <div class="stat"><strong>100%</strong><span>Clients Satisfaction</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-card reveal">
+          <h3>Tools I Use</h3>
+
+          
+        <div class="tools-grid">
+          <div class="tool-chip">
+            <img class="tool-logo" src="logos/on-screen-takeoff.webp" alt="On-Screen Takeoff">
+            <span>On-Screen Takeoff</span>
+          </div>
+          <div class="tool-chip">
+            <img class="tool-logo" src="logos/planswift.png" alt="Planswift">
+            <span>Planswift</span>
+          </div>
+          <div class="tool-chip">
+            <img class="tool-logo" src="logos/bluebeam.webp" alt="Bluebeam">
+            <span>Bluebeam</span>
+          </div>
+          <div class="tool-chip">
+            <img class="tool-logo" src="logos/microsoft-office.png" alt="Microsoft Office">
+            <span>Microsoft Office</span>
+          </div>
+          <div class="tool-chip">
+            <img class="tool-logo" src="logos/autocad.png" alt="AutoCAD">
+            <span>AutoCAD</span>
+          </div>
+          <div class="tool-chip">
+            <img class="tool-logo" src="logos/ketcup.jpg" alt="Ketcup">
+            <span>Ketcup</span>
+          </div>
+          <div class="tool-chip">
+            <img class="tool-logo" src="logos/ataad-pro-connect.jpg" alt="Ataad Pro Connect">
+            <span>Staad Pro Connect</span>
+          </div>
+        </div>
+
+          <h3>CERTIFICATES</h3>
+          <div class="cert-grid">
+            <div class="cert-badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="8" r="5"/><path d="M8 13l-2 8 6-3 6 3-2-8"/></svg>
+              <span>Licensed Civil Engineer</span>
+            </div>
+            <div class="cert-badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2l8 4v6c0 5-3.4 8.5-8 10-4.6-1.5-8-5-8-10V6l8-4z"/></svg>
+              <span> Computer Systems Servicing National Certificate Level II</span>
+            </div>
+            <div class="cert-badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2v20M5 8l7-6 7 6M5 8v8l7 6 7-6V8"/></svg>
+              <span>Electrical Installation and Maintenance National Certificate Level II</span>
+            </div>
+            <div class="cert-badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 4v5"/></svg>
+              <span>BlueBeam And Planswift Digital Quantity Takeoff And Estimation</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  
+  <!-- =================== CONTACT =================== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-wrap reveal">
+        <div class="contact-info">
+          <h2>Let's Work Together</h2>
+          <p>I'm currently open for freelance and contract work. Let's discuss how I can support your next build.</p>
+          <div class="status-badge">Open for Work</div>
+          <div class="contact-detail">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+              <li><a href="mailto:stephenearlgultiano1999%40gmail.com/FMfcgzQgMVbTClZdWvbKWsNQDzGrNSvV?compose=new" target="_blank" >stephenearlgultiano1999@gmail.com</a></li>
+          </div>
+          <div class="contact-detail">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s7-6.5 7-12a7 7 0 10-14 0c0 5.5 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></svg>
+            Philippines
+          </div>
+          <div class="social-row">
+            <a href="https://web.facebook.com/Im.Supermaaaaan" target="_blank" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7.5h2.5l.5-3h-3V8.5c0-.9.25-1.5 1.55-1.5H16.5V4.3C16.2 4.25 15.2 4 14 4c-2.4 0-4 1.45-4 4.1v2.4H7.5v3H10V21h3.5z"/></svg></a>
+            <a href="https://www.instagram.com/stphgultiano?igsh=Mms5cXh1bGp3emRw" target="_blank" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+            <a href="https://www.linkedin.com/in/stephen-earl-gultiano-733097319?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.94 5a2 2 0 11-4 0 2 2 0 014 0zM3.4 8.75h3v11.5h-3v-11.5zM9.5 8.75h2.9v1.57h.04c.4-.76 1.4-1.57 2.9-1.57 3.1 0 3.7 2 3.7 4.7v6.8h-3v-6c0-1.45-.03-3.3-2-3.3-2 0-2.3 1.6-2.3 3.2v6.1h-3v-11.5z"/></svg></a>
+          </div>
+        </div>
+
+        <form id="contactForm" novalidate>
+          <div class="form-grid">
+            <div class="field">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="Juan Dela Cruz" required>
+            </div>
+            <div class="field">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="email" placeholder="you@email.com" required>
+            </div>
+            <div class="field full">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Project inquiry" required>
+            </div>
+            <div class="field full">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" rows="4" placeholder="Tell me about your project..." required></textarea>
+            </div>
+            <div class="field full">
+              <button type="submit" class="btn btn-primary">Send Message</button>
+              <p class="form-msg" id="formMsg"></p>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== FOOTER =================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#top" class="logo">Stephen Earl Gultiano <span>REGISTERED CIVIL ENGINEER</span></a>
+          <p>Helping Clients Build with Confidence Through Accurate Estimates and Engineering Expertise.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#top">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Engineering &amp; Project Supervision</a></li>
+            <li><a href="#services">Construction Documentation</a></li>
+            <li><a href="#services">Quantity Surveying</a></li>
+            <li><a href="#services">Quantity Surveing</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Let's Connect</h4>
+          <ul>
+            <li><a href="mailto:stephenearlgultiano1999@gmail.com" aria-label="Email" target="_blank" >stephenearlgultiano1999@gmail.com</a></li>
+            <li><a href="#">Philippines</a></li>
+          </ul>
+            <div class="social-row" style="margin-top:14px;">
+              <a href="https://web.facebook.com/Im.Supermaaaaan" target="_blank" aria-label="Facebook">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14"><path d="M13.5 21v-7.5h2.5l.5-3h-3V8.5c0-.9.25-1.5 1.55-1.5H16.5V4.3C16.2 4.25 15.2 4 14 4c-2.4 0-4 1.45-4 4.1v2.4H7.5v3H10V21h3.5z"/></svg>
+              </a>
+              <a href="https://www.instagram.com/stphgultiano?igsh=Mms5cXh1bGp3emRw" target="_blank" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" width="14" height="14"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/></svg>
+              </a>
+              <a href="https://www.linkedin.com/in/stephen-earl-gultiano-733097319?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14"><path d="M6.94 5a2 2 0 11-4 0 2 2 0 014 0zM3.4 8.75h3v11.5h-3v-11.5zM9.5 8.75h2.9v1.57h.04c.4-.76 1.4-1.57 2.9-1.57 3.1 0 3.7 2 3.7 4.7v6.8h-3v-6c0-1.45-.03-3.3-2-3.3-2 0-2.3 1.6-2.3 3.2v6.1h-3v-11.5z"/></svg>
+              </a>
+            </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span id="year"></span> Made in <a href="https://tenor.com/view/what-did-you-say-gif-81683834615915477" target="_blank">earlisearlyy hehe</a>. All rights reserved.</p>
+        <p>Built with care for the built environment.</p>
+      </div>
+    </div>
+  </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="Emailjs.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
